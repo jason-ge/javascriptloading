@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Dynamically load javascript in order</title>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no, minimal-ui" />
+  <link rel="icon" href="favicon.ico">
+  <script src='../script/mytest0.js'></script>
+  <script src='../script/mytest1.js'></script>
+  <script src='../script/mytest2.js'></script>
+  <script>
+      testit0();
+      testit1();
+      testit2();
+  </script>
+</head>
+<body>  
+  <div>
+    <h3>test on dynamically load javascript.</h3>
+    <p>Please check the developer tools console for output.</p>
+  </div>
+</body>
+
+</html>
